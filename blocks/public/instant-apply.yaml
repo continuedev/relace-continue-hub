@@ -11,3 +11,6 @@ models:
       - apply
     promptTemplates:
       apply: "{{{ new_code }}}"
+    defaultCompletionOptions:
+      contextLength: 40000
+      maxTokens: 32000
